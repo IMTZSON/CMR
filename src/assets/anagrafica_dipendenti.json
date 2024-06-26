@@ -1,0 +1,92 @@
+[
+  {
+    "ID_Dipendente": 1,
+    "ID_Azienda": 1,
+    "Nome_Dipendente": "Giuseppe",
+    "Cognome_Dipendente": "Verdi",
+    "Posizione": "CEO",
+    "Telefono_Dipendente": "0234567891",
+    "Email_Dipendente": "giuseppe.verdi@aziendaalfa.it"
+  },
+  {
+    "ID_Dipendente": 2,
+    "ID_Azienda": 2,
+    "Nome_Dipendente": "Francesca",
+    "Cognome_Dipendente": "Neri",
+    "Posizione": "CTO",
+    "Telefono_Dipendente": "0645678902",
+    "Email_Dipendente": "francesca.neri@aziendabeta.it"
+  },
+  {
+    "ID_Dipendente": 3,
+    "ID_Azienda": 1,
+    "Nome_Dipendente": "Luca",
+    "Cognome_Dipendente": "Bianchi",
+    "Posizione": "CFO",
+    "Telefono_Dipendente": "0234567892",
+    "Email_Dipendente": "luca.bianchi@aziendaalfa.it"
+  },
+  {
+    "ID_Dipendente": 4,
+    "ID_Azienda": 2,
+    "Nome_Dipendente": "Maria",
+    "Cognome_Dipendente": "Rossi",
+    "Posizione": "COO",
+    "Telefono_Dipendente": "0645678903",
+    "Email_Dipendente": "maria.rossi@aziendabeta.it"
+  },
+  {
+    "ID_Dipendente": 5,
+    "ID_Azienda": 1,
+    "Nome_Dipendente": "Alessandro",
+    "Cognome_Dipendente": "Ferrari",
+    "Posizione": "CMO",
+    "Telefono_Dipendente": "0234567893",
+    "Email_Dipendente": "alessandro.ferrari@aziendaalfa.it"
+  },
+  {
+    "ID_Dipendente": 6,
+    "ID_Azienda": 2,
+    "Nome_Dipendente": "Elena",
+    "Cognome_Dipendente": "Russo",
+    "Posizione": "CIO",
+    "Telefono_Dipendente": "0645678904",
+    "Email_Dipendente": "elena.russo@aziendabeta.it"
+  },
+  {
+    "ID_Dipendente": 7,
+    "ID_Azienda": 1,
+    "Nome_Dipendente": "Federico",
+    "Cognome_Dipendente": "Galli",
+    "Posizione": "HR Manager",
+    "Telefono_Dipendente": "0234567894",
+    "Email_Dipendente": "federico.galli@aziendaalfa.it"
+  },
+  {
+    "ID_Dipendente": 8,
+    "ID_Azienda": 2,
+    "Nome_Dipendente": "Giulia",
+    "Cognome_Dipendente": "Esposito",
+    "Posizione": "Project Manager",
+    "Telefono_Dipendente": "0645678905",
+    "Email_Dipendente": "giulia.esposito@aziendabeta.it"
+  },
+  {
+    "ID_Dipendente": 9,
+    "ID_Azienda": 1,
+    "Nome_Dipendente": "Roberto",
+    "Cognome_Dipendente": "Conti",
+    "Posizione": "Developer",
+    "Telefono_Dipendente": "0234567895",
+    "Email_Dipendente": "roberto.conti@aziendaalfa.it"
+  },
+  {
+    "ID_Dipendente": 10,
+    "ID_Azienda": 2,
+    "Nome_Dipendente": "Laura",
+    "Cognome_Dipendente": "Bianchi",
+    "Posizione": "Designer",
+    "Telefono_Dipendente": "0645678906",
+    "Email_Dipendente": "laura.bianchi@aziendabeta.it"
+  }
+]

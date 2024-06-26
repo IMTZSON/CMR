@@ -1,0 +1,17 @@
+
+     [
+      {
+        "ID_Azienda": 1,
+        "Nome_Azienda": "Azienda Alfa",
+        "Indirizzo": "Via Roma 1, Milano",
+        "Telefono": "0234567890",
+        "Email": "info@aziendaalfa.it"
+      },
+      {
+        "ID_Azienda": 2,
+        "Nome_Azienda": "Azienda Beta",
+        "Indirizzo": "Via Milano 2, Roma",
+        "Telefono": "0645678901",
+        "Email": "info@aziendabeta.it"
+      }
+    ]

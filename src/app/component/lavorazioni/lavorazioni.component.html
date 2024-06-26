@@ -1,0 +1,74 @@
+<navbar></navbar>
+<div class="text-center">
+  <H1>Centro Lavorazioni</H1>
+</div>
+
+<div class="d-flex justify-content-center m-4">
+  <div class="p-2 m-2 rounded w-100">
+    <div class="d-flex justify-content-center">
+      @if (lavorazione) {
+      <div class="card m-2">
+        <div class="card-body">
+          <div class="d-grid gap-3 col-6 mx-10">
+            <buttonside></buttonside>
+            <button class="btn btn btn-outline-warning" type="button">
+              Modifica
+            </button>
+            <button class="btn btn btn-outline-warning" type="button">
+              Sposta
+            </button>
+            <button class="btn btn-outline-danger" type="button">
+              Rimuovi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">ID Cliente</th>
+                <th scope="col">ID Dipendente</th>
+                <th scope="col">ID Lavorazione</th>
+                <th scope="col">ID Offerta</th>
+                <th scope="col">Data Inizio</th>
+                <th scope="col">Data Fine</th>
+                <th scope="col">Descrizione</th>
+                <th scope="col">Stato Lavorazione</th>
+              </tr>
+            </thead>
+            @for (item of lavorazione; track $index) {
+            <tbody>
+              <tr class="text-center">
+                <td>{{ item.ID_Cliente }}</td>
+                <td>{{ item.ID_Dipendente }}</td>
+                <td>{{ item.ID_Lavorazione }}</td>
+                <td>{{ item.ID_Offerta }}</td>
+                <td>{{ item.Data_Inizio }}</td>
+                <td>{{ item.Data_Fine }}</td>
+                <td>{{ item.Descrizione_Lavorazione }}</td>
+                <td>{{ item.Stato_Lavorazione }}</td>
+              </tr>
+            </tbody>
+            }
+          </table>
+        </div>
+      </div>
+
+      <div></div>
+      <button class="m-2 btn btn-secondary" (click)="indietro()">
+        Torna indietro
+      </button>
+      } @else {
+      <div class="d-flex flex-column mb-8">
+        <b>Nessun Dato trovato</b>
+        <button class="btn btn-secondary" (click)="indietro()">
+          Torna indietro
+        </button>
+      </div>
+
+      }
+    </div>
+  </div>
+</div>

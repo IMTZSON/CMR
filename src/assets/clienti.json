@@ -1,0 +1,94 @@
+
+    [
+      {
+        "ID_Cliente": 1,
+        "ID_Azienda": 1,
+        "Nome_Cliente": "Cliente Uno",
+        "Partita_IVA": "12345678901",
+        "Indirizzo": "Via Torino 3, Milano",
+        "Telefono": "0256789012",
+        "Email": "clienteuno@cliente.it"
+      },
+      {
+        "ID_Cliente": 2,
+        "ID_Azienda": 1,
+        "Nome_Cliente": "Cliente Due",
+        "Partita_IVA": "98765432109",
+        "Indirizzo": "Via Roma 5, Napoli",
+        "Telefono": "0812345678",
+        "Email": "clientedue@cliente.it"
+      },
+      {
+        "ID_Cliente": 3,
+        "ID_Azienda": 1,
+        "Nome_Cliente": "Cliente Tre",
+        "Partita_IVA": "23456789012",
+        "Indirizzo": "Corso Vittorio Emanuele 8, Torino",
+        "Telefono": "0113456789",
+        "Email": "clientetre@cliente.it"
+      },
+      {
+        "ID_Cliente": 4,
+        "ID_Azienda": 1,
+        "Nome_Cliente": "Cliente Quattro",
+        "Partita_IVA": "87654321098",
+        "Indirizzo": "Via Venezia 10, Verona",
+        "Telefono": "0456789123",
+        "Email": "clientequattro@cliente.it"
+      },
+      {
+        "ID_Cliente": 5,
+        "ID_Azienda": 1,
+        "Nome_Cliente": "Cliente Cinque",
+        "Partita_IVA": "34567890123",
+        "Indirizzo": "Via Napoli 15, Palermo",
+        "Telefono": "0912345678",
+        "Email": "clientecinque@cliente.it"
+      },
+      
+        {
+          "ID_Cliente": 2,
+          "ID_Azienda": 2,
+          "Nome_Cliente": "Cliente Undici",
+          "Partita_IVA": "12345678901",
+          "Indirizzo": "Via Torino 3, Milano",
+          "Telefono": "0256789012",
+          "Email": "clienteundici@cliente.it"
+        },
+        {
+          "ID_Cliente": 2,
+          "ID_Azienda": 2,
+          "Nome_Cliente": "Cliente Dodici",
+          "Partita_IVA": "98765432109",
+          "Indirizzo": "Via Roma 5, Napoli",
+          "Telefono": "0812345678",
+          "Email": "clientedodici@cliente.it"
+        },
+        {
+          "ID_Cliente": 2,
+          "ID_Azienda": 2,
+          "Nome_Cliente": "Cliente Tredici",
+          "Partita_IVA": "23456789012",
+          "Indirizzo": "Corso Vittorio Emanuele 8, Torino",
+          "Telefono": "0113456789",
+          "Email": "clientetredici@cliente.it"
+        },
+        {
+          "ID_Cliente": 2,
+          "ID_Azienda": 2,
+          "Nome_Cliente": "Cliente Quattordici",
+          "Partita_IVA": "87654321098",
+          "Indirizzo": "Via Venezia 10, Verona",
+          "Telefono": "0456789123",
+          "Email": "clientequattordici@cliente.it"
+        },
+        {
+          "ID_Cliente": 2,
+          "ID_Azienda": 2,
+          "Nome_Cliente": "Cliente Quindici",
+          "Partita_IVA": "34567890123",
+          "Indirizzo": "Via Napoli 15, Palermo",
+          "Telefono": "0912345678",
+          "Email": "clientequindici@cliente.it"
+        }
+    ]

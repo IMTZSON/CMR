@@ -1,0 +1,51 @@
+<navbar> </navbar>
+
+<div class="text-center">
+  <H1>Gestione Agenzie</H1>
+</div>
+<div class="container ">
+  <div class="d-flex w-100">
+    <div class="p-2 m-2 rounded w-100 d-flex justify-content-center">
+      <div class="d-flex">
+        <div class="col-auto">
+          <div class="card">
+            <div class="card-body">
+              <table class="table">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col">ID_Azienda</th>
+                    <th scope="col">Nome_Azienda</th>
+                    <th scope="col">Indirizzo</th>
+                    <th scope="col">Telefono</th>
+                    <th scope="col">Email</th>
+                    <th scope="col"> Clienti</th>
+                    <th scope="col">Dipendenti</th>
+                  </tr>
+                </thead>
+                @if(aziende){
+                  @for (item of aziende; track $index) {
+                    <tbody>
+                      <tr class="text-center">
+                        <td scope="row">{{ item.ID_Azienda }}</td>
+                        <td scope="row">{{ item.Nome_Azienda }}</td>
+                        <td scope="row">{{ item.Indirizzo }}</td>
+                        <td scope="row">{{ item.Telefono }}</td>
+                        <td scope="row">{{ item.Email }}</td>
+                        
+                        <td scope="row"><button class="btn btn-info bi bi-person-add" (click)="viewClienti(item.ID_Azienda)"></button></td>
+                        <td scope="row"><button class="btn btn-info bi bi-person-gear" (click)="viewDipendenti(item.ID_Azienda)"></button></td>
+                      </tr>
+                    </tbody>
+                    }
+                }
+                
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+

@@ -1,0 +1,20 @@
+
+    [
+      {
+        "ID_Offerta": 1,
+        "ID_Cliente": 1,
+        "ID_Dipendente": 1,
+        "Descrizione": "Offerta per servizi di consulenza",
+        "Data_Offerta": "2023-01-15",
+        "Valore_Offerta": 15000.00
+      },
+      {
+        "ID_Offerta": 2,
+        "ID_Cliente": 2,
+        "ID_Dipendente": 2,
+        "Descrizione": "Offerta per sviluppo software",
+        "Data_Offerta": "2023-02-20",
+        "Valore_Offerta": 25000.00,
+        "Stato_Offerta": "IN Elaborazione"
+      }
+    ]

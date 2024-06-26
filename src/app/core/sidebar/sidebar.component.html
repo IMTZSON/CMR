@@ -1,0 +1,58 @@
+<button
+  class="btn bi bi-list-ul btn-lg"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#offcanvasWithBothOptions"
+  aria-controls="offcanvasWithBothOptions"
+></button>
+
+<div
+  class="offcanvas offcanvas-start"
+  data-bs-scroll="true"
+  tabindex="-1"
+  id="offcanvasWithBothOptions"
+  aria-labelledby="offcanvasWithBothOptionsLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+      <img
+        src="https://www.nvgroup.it/wp-content/uploads/2018/01/logo-full.png"
+      />
+    </h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container">
+      <ul>
+        <div class="d-flex align-items-center flex-column">
+          <div class="d-grid gap-3 col-9 mx-auto">
+            <button class="btn btn-outline-info" type="button" routerLink="/aziende">Aziende</button>
+            <button class="btn btn-outline-info" type="button" routerLink="/clienti">Clienti</button>
+            <button class="btn btn-outline-info" type="button" routerLink="/dipendenti">
+              Dipendenti
+            </button>
+            <button class="btn btn-outline-info" type="button" routerLink="/lavorazioni">
+              Lavorazioni
+            </button>
+            <button class="btn btn-outline-info" type="button">
+              Offerte Commerciali
+            </button>
+          </div>
+        </div>
+      </ul>
+      <ul class="d-flex align-items-center flex-column">
+        <div class="d-grid gap-2 col-9 mx-auto m-4">
+          <button class="btn btn-outline-secondary">Impostazioni</button>
+          <button class="btn btn-outline-danger" type="button">
+            Disconnessione
+          </button>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>

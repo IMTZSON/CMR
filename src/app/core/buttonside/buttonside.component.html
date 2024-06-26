@@ -1,0 +1,112 @@
+<!-- Aggiungi Button -->
+<div class="d-grid gap-3 col-6 mx-10">
+  <div
+    class="modal fade"
+    id="AggiungiBtn"
+    aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+            Aggiungi Dipendente
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="d-flex justify-content-center">
+              <div class="mb-2 col">
+                <label for="staticEmail" class="col-sm-3 col-form-label"
+                  >Email</label
+                >
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="staticEmail" />
+                </div>
+              </div>
+              <div class="mb-2 col">
+                <label for="inputPassword" class="col-sm-4 col-form-label"
+                  >Password</label
+                >
+                <div class="col-sm-8">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="mb-3 col">
+                <label for="staticEmail" class="col-sm-3 col-form-label"
+                  >Nome</label
+                >
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="staticEmail" />
+                </div>
+              </div>
+              <div class="mb-3 col">
+                <label for="inputPassword" class="col-sm-4 col-form-label"
+                  >Cognome</label
+                >
+                <div class="col-sm-8">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="mb-3 col">
+                <label for="staticEmail" class="col-sm-4 col-form-label"
+                  >Posizione</label
+                >
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="staticEmail" />
+                </div>
+              </div>
+              <div class="mb-3 col">
+                <label for="inputPassword" class="col-sm-4 col-form-label"
+                  >Telefono</label
+                >
+                <div class="col-sm-8">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex text-center">
+            <small>Ricorda sempre di Salvare, per apportare le modifiche</small>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline-success" data-bs-toggle="modal">
+            Salva
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    class="btn btn-outline-success"
+    data-bs-target="#AggiungiBtn"
+    data-bs-toggle="modal"
+  >
+    Aggiungi
+  </button>
+
+

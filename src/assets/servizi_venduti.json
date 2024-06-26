@@ -1,0 +1,20 @@
+{
+    "Servizi_Venduti": [
+      {
+        "ID_Servizio": 1,
+        "ID_Offerta": 1,
+        "Descrizione_Servizio": "Servizio di consulenza",
+        "Quantità": 10,
+        "Prezzo_Unitario": 150.00,
+        "Prezzo_Totale": 1500.00
+      },
+      {
+        "ID_Servizio": 2,
+        "ID_Offerta": 2,
+        "Descrizione_Servizio": "Sviluppo software",
+        "Quantità": 5,
+        "Prezzo_Unitario": 500.00,
+        "Prezzo_Totale": 2500.00
+      }
+    ]
+}

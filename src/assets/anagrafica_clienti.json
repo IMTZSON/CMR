@@ -1,0 +1,22 @@
+{
+    "Anagrafica_Clienti": [
+      {
+        "ID_Anagrafica_Cliente": 1,
+        "ID_Azienda": 1,
+        "ID_Cliente": 1,
+        "Nome_Referente": "Mario",
+        "Cognome_Referente": "Rossi",
+        "Telefono_Referente": "0256789013",
+        "Email_Referente": "mario.rossi@cliente.it"
+      },
+      {
+        "ID_Anagrafica_Cliente": 2,
+        "ID_Azienda": 2,
+        "ID_Cliente": 2,
+        "Nome_Referente": "Luca",
+        "Cognome_Referente": "Bianchi",
+        "Telefono_Referente": "0667890124",
+        "Email_Referente": "luca.bianchi@cliente.it"
+      }
+    ]
+}

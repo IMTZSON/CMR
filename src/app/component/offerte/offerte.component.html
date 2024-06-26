@@ -1,0 +1,79 @@
+<navbar></navbar>
+<div class="text-center">
+  <H1>Offerte Commerciali</H1>
+</div>
+
+<div class="d-flex justify-content-center m-4">
+  <div class="p-2 m-2 rounded w-100">
+    <div class="d-flex justify-content-center">
+      @if (offerte) {
+      <div class="card m-2">
+        <div class="card-body">
+          <div class="d-grid gap-3 col-6 mx-10">
+            <buttonside></buttonside>
+            <button class="btn btn btn-outline-warning" type="button">
+              Modifica
+            </button>
+            <button class="btn btn btn-outline-warning" type="button">
+              Sposta
+            </button>
+            <button class="btn btn-outline-danger" type="button">
+              Rimuovi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">ID Offerta</th>
+                <th scope="col">ID Cliente</th>
+                <th scope="col">ID Dipendente</th>
+                <th scope="col">Descrizione</th>
+                <th scope="col">Data Offerta</th>
+                <th scope="col">Valore Offerta</th>
+                <th scope="col">Operatore Selezionato</th>
+              </tr>
+            </thead>
+            @for (item of offerte; track $index) {
+            <tbody>
+              <tr class="text-center">
+                <td>{{ item.ID_Offerta }}</td>
+                <td>{{ item.ID_Cliente }}</td>
+                <td>{{ item.ID_Dipendente }}</td>
+                <td>{{ item.Descrizione }}</td>
+                <td>{{ item.Data_Offerta }}</td>
+                <td>{{ item.Valore_Offerta }}€</td>
+
+                <td>
+                  <select class="form-select" id="floatingSelect">
+                    <option selected disabled>Seleziona Operatore</option>
+                    @for (item of dipendenti; track $index) {
+                    <option value="1">
+                      {{ item.ID_Dipendente }}| {{ item.Nome_Dipendente }}
+                      {{ item.Cognome_Dipendente }}
+                    </option>
+                    }
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+            }
+          </table>
+        </div>
+      </div>
+
+      } @else {
+      <div class="d-flex flex-column mb-8">
+        <b>Nessun Dato trovato</b>
+        <button class="btn btn-secondary" (click)="indietro()">
+          Torna indietro
+        </button>
+      </div>
+
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+
+    [
+        {
+          "ID_Cliente": 1,
+          "ID_Dipendente": 1,
+          "ID_Lavorazione": 1,
+          "ID_Offerta": 1,
+          "Descrizione_Lavorazione": "Consulenza iniziale",
+          "Data_Inizio": "2023-01-20",
+          "Data_Fine": "2023-02-10",
+          "Stato_Lavorazione": "Completata"
+        },
+        {
+          "ID_Cliente": 2,
+          "ID_Dipendente": 2,
+          "ID_Lavorazione": 2,
+          "ID_Offerta": 2,
+          "Descrizione_Lavorazione": "Sviluppo del modulo base",
+          "Data_Inizio": "2023-02-25",
+          "Data_Fine": "2023-03-30",
+          "Stato_Lavorazione": "In corso"
+        },
+        {
+          "ID_Cliente": 3,
+          "ID_Dipendente": 3,
+          "ID_Lavorazione": 1,
+          "ID_Offerta": 1,
+          "Descrizione_Lavorazione": "Consulenza iniziale",
+          "Data_Inizio": "2023-01-20",
+          "Data_Fine": "2023-02-10",
+          "Stato_Lavorazione": "Completata"
+        },
+        {
+          "ID_Cliente": 4,
+          "ID_Dipendente": 4,
+          "ID_Lavorazione": 2,
+          "ID_Offerta": 2,
+          "Descrizione_Lavorazione": "Sviluppo del modulo base",
+          "Data_Inizio": "2023-02-25",
+          "Data_Fine": "2023-03-30",
+          "Stato_Lavorazione": "In corso"
+        },
+        {
+          "ID_Cliente": 5,
+          "ID_Dipendente": 5,
+          "ID_Lavorazione": 1,
+          "ID_Offerta": 1,
+          "Descrizione_Lavorazione": "Consulenza iniziale",
+          "Data_Inizio": "2023-01-20",
+          "Data_Fine": "2023-02-10",
+          "Stato_Lavorazione": "Completata"
+        },
+        {
+          "ID_Cliente": 1,
+          "ID_Dipendente": 2,
+          "ID_Lavorazione": 2,
+          "ID_Offerta": 2,
+          "Descrizione_Lavorazione": "Sviluppo del modulo base",
+          "Data_Inizio": "2023-02-25",
+          "Data_Fine": "2023-03-30",
+          "Stato_Lavorazione": "In corso"
+        },
+        {
+          "ID_Cliente": 2,
+          "ID_Dipendente": 3,
+          "ID_Lavorazione": 1,
+          "ID_Offerta": 1,
+          "Descrizione_Lavorazione": "Consulenza iniziale",
+          "Data_Inizio": "2023-01-20",
+          "Data_Fine": "2023-02-10",
+          "Stato_Lavorazione": "Completata"
+        },
+        {
+          "ID_Cliente": 3,
+          "ID_Dipendente": 4,
+          "ID_Lavorazione": 2,
+          "ID_Offerta": 2,
+          "Descrizione_Lavorazione": "Sviluppo del modulo base",
+          "Data_Inizio": "2023-02-25",
+          "Data_Fine": "2023-03-30",
+          "Stato_Lavorazione": "In corso"
+        }
+      ]

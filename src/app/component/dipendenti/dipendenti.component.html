@@ -1,0 +1,63 @@
+<navbar> </navbar>
+<div class="text-center">
+  <H1>Gestione Dipendenti</H1>
+</div>
+<div class="d-flex justify-content-center m-4">
+  <div class="p-2 m-2 rounded w-100">
+    <div class="d-flex justify-content-center">
+      @if (dipendenti) {
+      <div class="card m-2">
+        <div class="card-body">
+          <div class="d-grid gap-3 col-6 mx-10">
+            <buttonside></buttonside>
+            <button class="btn btn btn-outline-warning" type="button">
+              Modifica
+            </button>
+            <button class="btn btn-outline-danger" type="button">
+              Rimuovi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body page-container">
+          <table class="table mx-auto">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">ID Azienda</th>
+                <th scope="col">ID Dipendente</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Cognome</th>
+                <th scope="col">Posizione</th>
+                <th scope="col">Email</th>
+                <th scope="col">Telefono</th>
+              </tr>
+            </thead>
+            @for (item of dipendenti; track $index) {
+            <tbody>
+              <tr class="text-center">
+                <td scope="row">{{ item.ID_Azienda }}</td>
+                <td scope="row">{{ item.ID_Dipendente }}</td>
+                <td scope="row">{{ item.Nome_Dipendente }}</td>
+                <td scope="row">{{ item.Cognome_Dipendente }}</td>
+                <td scope="row">{{ item.Posizione }}</td>
+                <td scope="row">{{ item.Email_Dipendente }}</td>
+                <td scope="row">{{ item.Telefono_Dipendente }}</td>
+              </tr>
+            </tbody>
+            }
+          </table>
+        </div>
+      </div>
+      } @else {
+      <div class="d-flex flex-column mb-8">
+        <b>Nessun Dato trovato</b>
+        <button class="btn btn-secondary" (click)="indietro()">
+          Torna indietro
+        </button>
+      </div>
+
+      }
+    </div>
+  </div>
+</div>
