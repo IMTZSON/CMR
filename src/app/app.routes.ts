@@ -5,12 +5,17 @@ import { ClientiComponent } from './component/clienti/clienti.component';
 import { DipendentiComponent } from './component/dipendenti/dipendenti.component';
 import { LavorazioniComponent } from './component/lavorazioni/lavorazioni.component';
 import { OfferteComponent } from './component/offerte/offerte.component';
+import { DashbordComponent } from './component/dashbord/dashbord.component';
 
 export const routes: Routes = [
   // {
   //     path: 'errors',
   //     component: ErrorsComponent
   // },
+  {
+    path: 'dashbord',
+    component: DashbordComponent
+  },
   {
     path: 'aziende',
     component: HomeComponent,
@@ -33,7 +38,7 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'aziende',
+    redirectTo: 'dashbord',
     pathMatch: 'full'
   }
   // {
